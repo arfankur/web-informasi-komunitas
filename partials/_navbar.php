@@ -45,9 +45,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/real-estate.php">Real estate</a>
                 </li>
+                -->
                 <li class="nav-item">
-                    <a class="nav-link" href="../pages/travel.php">Travel</a>
-                </li> -->
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
                 <?php
                 foreach ($_datakomunitas as $key => $value) {
                     # code...
