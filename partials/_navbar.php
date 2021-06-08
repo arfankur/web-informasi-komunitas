@@ -1,7 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="d-flex justify-content-center align-items-center navbar-top">
+    <div class="justify-between d-flex lg:justify-center align-items-center navbar-top">
         <div>
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="" /></a>
+            <a class="navbar-brand" href="#">
+                <div class="">
+                    <img src="../assets/images/logo.png" class="w-20 lg:inline-block" alt="" srcset="">
+                    <div class="lg:inline-block text-3xl hidden font-black">Komunitas Fotografi Bogor</div>
+                </div>
+            </a>
         </div>
 
     </div>

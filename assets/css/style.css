@@ -10156,11 +10156,11 @@ h6, .h6 {
   margin-right: 0;
 }
 
-@media (max-width: 999px) {
+/* @media (max-width: 999px) {
   .navbar .navbar-brand img {
     width: 170px;
   }
-}
+} */
 
 @media (max-width: 999px) {
   .navbar .social-media {

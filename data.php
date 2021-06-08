@@ -28,29 +28,125 @@ Laboriosam, voluptas nemo vitae quasi dignissimos beatae autem libero repudianda
 Sapiente magnam nostrum doloremque incidunt minima odit eveniet ut adipisci reiciendis nemo. Praesentium nemo laboriosam qui, aperiam porro, beatae alias debitis quos natus consectetur commodi soluta maiores nihil ratione omnis.
 Fugiat voluptatum eaque odio aut facilis in, laboriosam error, reiciendis praesentium corporis eveniet commodi ab fuga totam assumenda ad ex tempore. Possimus iusto accusamus, perferendis quo porro architecto nobis eos?";
 $_datakomunitas = [
-    'rpg' => [
+    'Gathering' => [
         // 'berita' => [
         [
             /* judul gamber */
-            'name' => 'lost saga',
-            /* sumber gamber */ 'thumbnail' => 'https://preview.redd.it/6ou6tq5xhpi51.png?width=1600&format=png&auto=webp&s=b4e24989c493d9b108f990a0f663bb3c261dcd3a',
+            'name' => 'Silahturahmi KFB',
+            /* sumber gamber */ 'thumbnail' => 'http://alienco.net/wp-content/uploads/2015/03/Foto-Prewedding-Foto-Pernikahan-Wedding-Photography-Jasa-Fotografi-Komunitas-fotografi-Bogor-3-640x199.jpg',
             /*isi berita*/ 'kontent' => $lorem,
+
+        ],
+        [
+            
+            'name' => 'Silahturahmi Ti Masa Imlek',
+            'thumbnail' => 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/s960x960/50230561_988195684708222_7382971008556204032_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=825194&_nc_eui2=AeF0jQRHUFcMR_cWxWGe5oi5KMTfZZDBBGYoxN9lkMEEZpyljva7tPiLWrPsww6grvC8BJcV0DVem2MsbjbjE8RD&_nc_ohc=86WMn--VcBcAX-s2EvL&_nc_ht=scontent-sjc3-1.xx&tp=7&oh=aedb46e033694acb08fc112c10849c3b&oe=60DE2E70',
+            'kontent' => $lorem,
+
+        ],
+        [
+            
+            'name' => 'Kumpul Petang',
+            'thumbnail' => 'https://www.manfrottoimaginemore.com/site/uploads/2014/06/JP_20140605_top.jpg',
+            'kontent' => $lorem,
 
         ],
         // ]
     ],
-    'racing' => [
+    'Kompetisi' => [
         // 'berita' => [
         [
-            'name' => 'most wanted',
-            'thumbnail' => 'src',
+            'name' => 'Iseng Foto Di Gunung',
+            'thumbnail' => 'https://images.solopos.com/2013/07/any-sby-jkt-060713-Prasetyo-Utomo-antara2.jpg',
             'kontent' => $lorem,
         ],
         [
-            'name' => 'lost saga',
-            'thumbnail' => 'src',
+            'name' => 'Shot Malem',
+            'thumbnail' => 'https://cdn-2.tstatic.net/bogor/foto/bank/images/konunitas-fotografi_20161226_225057.jpg',
             'kontent' => $lorem,
         ],
+        [
+            'name' => '🧀',
+            'thumbnail' => 'https://s3.us-west-2.amazonaws.com/thisweekinphoto.com/2018/01/TWiP_PRO_THUMB.jpg',
+            'kontent' => $lorem,
+        ],
+        // ]
+    ],
+    'Edukasi' => [
+        // 'berita' => [
+        [
+            'name' => 'Dasar Fotografi',
+            'thumbnail' => 'https://fdn.gsmarena.com/imgroot/reviews/19/buyers-guide/thumbs/-728x314/gsmarena_003.jpg',
+            'kontent' => 
+            "1. Aperture <br>
+            Aperture adalah pembukaan diafragma lensa yang memungkinkan cahaya untuk masuk. Mempunyai berfungsi untuk mengatur banyaknya cahaya yang masuk, dibedakan dengan tanda “f/stops”. <br>
+            2. Viewfinder <br>
+            Ketika ingin mengambil foto atau video dengan kamera, ada satu lubang yang digunakan untuk melihat objek yang akan difoto. Jadi, lubang itu namanya adalah viewfinder. <br>
+            3. Fokus <br>
+            Ketika melihat sesuatu yang dekat, matamu akan fokus pada objek tersebut. Sedangkan objek di belakang dan sekitarnya menjadi buram. Kamu juga bisa memindahkan fokus ke objek yang mungkin lebih jauh. Jadi, fokus kamera sama saja. Kamu bisa memilih titik mana yang ingin difokuskan. <br>
+            4. Focal length <br>
+            Menurut Masterclass, focal length adalah istilah fotografi yang menggambarkan jarak antara lensa dan sensor atau gambar yang dihasilkan di dalam film. Jarak ini diukur dalam milimeter (mm). <br>
+            5. Shutter speed <br>
+            Shutter speed adalah bagian dari kamera yang bisa memengaruhi masuknya cahaya. <br>
+            6. ISO <br>
+            Menurut Digital Trends, ISO merupakan singkatan dari International Organization of Standardization yang menentukan standar sensitivitas sensor kamera terhadap cahaya. <br>
+            7. Exposure <br>
+            Exposure ini menggambarkan seberapa terang atau gelap sebuah foto. <br>
+            8. White balance <br>
+            Dilansir dari Expert Photography, white balance akan menentukan seberapa akurat warna foto dengan objek yang difoto.  <br>
+            9. Noise <br>
+            Pernah melihat hasil foto analog yang penuh bercak-bercak? Mungkin juga foto digital, tetapi pencahayaannya kurang banyak?Nah, bercak atau titik-titik di foto tersebut namanya adalah noise atau biasa juga disebut dengan istilah grain. br
+            10. Bokeh <br>
+            Istilah terakhir adalah bokeh, trik fotografi yang dapat membuat fotomu menjadi lebih estetik.
+            <br><br>
+            Demikianlah ilmu yang dapat saya sampaikan. Semoga ulasan ini bisa memperkaya wawasan bagi pembacanya. Terima kasih",
+        ],
+        [
+            'name' => 'Trik Fotografi',
+            'thumbnail' => 'https://cdn57.androidauthority.net/wp-content/uploads/2018/07/master-photography.jpg',
+            'kontent' => 
+            "
+            1. Lighting pencahayaan <br>
+            Pastikan objek foto yang kamu ambil itu lebih terekspos(terang) dari pada backgroundnya. Dan bagusnya lebih persiapan jika kamu  memastikan agar objek nya diterangkan cahanya yang sedang dalam keadaan 45 derajat dari atas dan pastikan cahaya tersebut menerangi yang ada. <br>
+            2. Komposisi <br>
+            Dimana dalam komposisi ini kamu harus membagi beberapa bagian yang ada dalam suatu foto. menjadikan bebarapa garis dan meletakan objek foto tersebut dalam satu garis tertentu.
+            Nah untuk memunculkan garis sebelum kamu memfoto ada di kamera --> pengaturan --> show gridline (yes) <br>
+            3. Camera angle (kemiringan) <br>
+            Untuk tips ke tiga ini mempunyai bebe rapa poin, yaitu:
+            Point pertama High angle ini biasanya untuk membuat foto seseorang itu terkesan non dominan atau terlihat menjadi lebih bagus.
+            Point kedua low angle itu membuat seseorang  tampak  punya dominan pada suatu foto tersebut.
+            Dan terakhir point Ketiga medium angle dimana kamu membuat objek menjadi datar dengan camera saat kita memfotonya dari sisi dominan atau tidaknya nya itu netral. <br>
+            4. Fokus foto <br>
+            Untuk memfotret makhluk hidup maka harus memastikan fokus objeknya itu ke mata. Dan satu lagi jika ingin memfokuskan foto nya sangat disarankan jika tukang fotonya jangan enggan maju dab bergerak untuk mendekati objek jika hal demikin sangat diperlukan. Karena jika menggunakan zoom yang terdapat pada hp akan menghasilkan foto yang blur <br>
+            5. Edit fotonya <br>
+            Karena foto yang pertama kali keluar dri camera hp biasanya sangat pucat. Maka dari itu kamu perlu mempelajari edit paling dasar untuk membuat tampilan fotonya itu terlihat lebih segar. Buat kamu yang malas ngedit tinggal donwload saja aplikasinya banyak sekali aplikasi yang bisa menyegarkan sebuat tampilan foto. <br><br>
+            
+            Mungkin hanya itu yang dapat saya berikan. Semoga bermanfaat dan menambah wawasan bagi kamu para pembaca",
+        ],
+        [
+            'name' => 'Jenis Jenis Fotografi',
+            'thumbnail' => 'https://e96da7feec172cfd47d9-f2b0b70b246865de3ac6bf866e3de595.ssl.cf1.rackcdn.com/Screen-Shot-2015-07-28-at-1.12.23-PM.jpg',
+            'kontent' => 
+            "
+            1. Food Photography <br>
+Jenisfotografi makanan ini teknik memotret makanan menjadi lebih menggoda. Dalam industri kuliner, seperti produsen makanan, rumah produksi, periklanan, hotel, kafe, dan lainnya. <br>
+2. Landscape Photography <br>
+Landscape Photography menunjukan ruang dalam dunia yaitu pemandangan alam, kadang-kadang luasa dan tak berujung,tapi kadang mikroskopis. Foto landscape biasanya menangkap kehadiran alam tetapi juga dapat fokus pada buatan manusia. <br>
+3. Potrait Photography <br>
+Fotografi potret penangkapan dengan cara fotografi serupa dengan seseorang, di mana ekspresi wajah dan dominan. Tujuan jenis fotografi ini untuk menampilkan rupa, kepribadian, dan bahkan mood subjek. <br>
+4. Fashion Photography <br>
+Fashion Photography jenis fotografi yang ditujukan untuk menampilkan pakaian dan barang-barang fashion lainnya. Fotografi fashion yang paling sering dilakukan untuk iklan atau majalah fashion seperti Vogue, Vanity Fair, atau Allure. <br>
+5. Street Photograph <br>
+Street Photography  salah satu jenis fotografi yang menarik. Sedikit berbeda dengan foto jurnalistik yang fokusnya mengabadikan momen puncak/klimaks. Street photography bertujuan untuk merekam kegiatan sehari-hari. <br>
+6. Wedding Photography <br>
+Wedding Photography jenis fotografi yang dilakukan sebelum acara pernikahan, atau banyak diketahui orang dengan sebutan Pre Wedding. Jenis-jenis fotografi ini merupakan salah satu yang paling popular karena setiap orang pasti ingin memiliki foto yang bagus pada momen penting mereka. <br>
+7. Commercial Advertising Photography <br>
+Jenis photography ini dimana kegiatan proses merekam gambarnya biasanya dibuat menarik dengan bantuan editing dan computer graphycs, dan bertujuan untuk keperluan promosi atau iklan. Karena fotografi memainkan peran penting dalam periklanan, fotografer profesional banyak mengabdikan karier mereka untuk fotografi iklan. <br> <br>
+
+Setelah membaca kamu para photografi sudah tidak bingung lagi bukan akan memilih posisi menjadi jenis photografi apa. Semua jenis photografi sama-sama bagus tinggal mengikuti saja bakat atau minatnya dimana. 
+Sudahi dulu ulusan hari ini. Mohon maaf jika ada kesalah, sekian dan terima kasih",
+        ],
+       
         // ]
     ],
 ];

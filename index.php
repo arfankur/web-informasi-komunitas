@@ -51,7 +51,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="text-center">
-                                    <h1 class="text-center mt-5 font-bold">
+                                    <h1 class="mt-2 lg:mt-5 font-bold text-center">
                                         <?= strtoupper($_GET['kategori']); ?>
                                     </h1>
                                     <!-- <p class="text-secondary fs-15">
@@ -59,28 +59,28 @@
                                         dashboard
                                     </p> -->
                                 </div>
-                                <!-- <h5 class="text-muted font-weight-medium mb-3">World News</h5> -->
+                                <!-- <h5 class="mb-3 text-muted font-weight-medium">World News</h5> -->
                             </div>
                         </div>
 
-                        <div class="row mt-5">
+                        <div class="mt-5 row">
                             <!-- <div class="col-sm-12">
-                                <h5 class="text-muted font-weight-medium mb-3">Popular News</h5>
+                                <h5 class="mb-3 text-muted font-weight-medium">Popular News</h5>
                             </div> -->
                         </div>
-                        <div class="row mb-4">
+                        <div class="mb-4 row">
                             <?php
                             foreach ($_datakomunitas[$_GET['kategori']] as $key => $value) {
                                 # code...
                             ?>
-                                <a href="index.php?berita=<?= $_GET['kategori'] ?>-<?= $key ?>" class="col-sm-3  mb-5 mb-sm-2">
+                                <a href="index.php?berita=<?= $_GET['kategori'] ?>-<?= $key ?>" class="mb-5 col-sm-3 mb-sm-2">
                                     <div class="position-relative image-hover">
-                                        <img src="<?= $value['thumbnail'] ?>" onerror="this.src = 'https://sibakuljogja.jogjaprov.go.id/files/No_Image_Available.jpg' " class="img-fluid" alt="world-news" />
+                                        <img src="<?= $value['thumbnail'] ?>" class="h-36 w-full object-cover" onerror="this.src = 'https://sibakuljogja.jogjaprov.go.id/files/No_Image_Available.jpg' " class="img-fluid" alt="world-news" />
                                         <span class="thumb-title">
                                             <?= strtoupper($_GET['kategori']) ?>
                                         </span>
                                     </div>
-                                    <h5 class="font-weight-600 text-black mt-3">
+                                    <h5 class="mt-3 text-black font-weight-600">
                                         <?= $value['name'] ?>
 
                                     </h5>
@@ -89,12 +89,12 @@
                             }
                             ?>
 
-                            <!-- <div class="col-sm-3  mb-5 mb-sm-2">
+                            <!-- <div class="mb-5 col-sm-3 mb-sm-2">
                                 <div class="position-relative image-hover">
                                     <img src="../assets/images/travel/Travel_10.jpg" class="img-fluid" alt="world-news" />
                                     <span class="thumb-title">TRAVEL</span>
                                 </div>
-                                <h5 class="font-weight-600 mt-3">
+                                <h5 class="mt-3 font-weight-600">
                                     Disney parks expand (good) vegan food options
                                 </h5>
                             </div> -->
@@ -112,7 +112,7 @@
                 $berita = $_datakomunitas[$split_berita[0]][$split_berita[1]];
                 if (isset($_datakomunitas[$split_berita[0]][$split_berita[1]]) && count($split_berita) < 3) {
                 ?>
-                    <div class="container">
+                    <div class="container mb-60">
 
                         <div class="row">
                             <div class="col-sm-12">
@@ -121,24 +121,10 @@
                                         <h1 class="text-center">
                                             <?= $berita['name'] ?>
                                         </h1>
-                                        <!-- <div class="text-center">
-                                            <a href="#" class="btn btn-dark font-weight-bold mb-4">News</a>
-                                        </div> -->
-                                        <!-- <p class="fs-15 d-flex justify-content-center align-items-center m-0">
-                                            <img src="../assets/images/dashboard/Profile_1.jpg" alt="" class="img-xs img-rounded mr-2" />
-                                            Oka Tomoaki | 23 February, 2018
-                                        </p> -->
-                                        <!-- <p class="pt-4 pb-4">
-                                            He has led a remarkable campaign, defying the traditional
-                                            mainstream parties courtesy of his En Marche! movement. For
-                                            many, however, the campaign has become less about backing Macron
-                                            and instead about voting against Le Pen, the National Front
-                                            candidate.
-                                        </p> -->
                                     </div>
-                                    <img src="<?= $berita['thumbnail'] ?>" onerror="this.src = 'https://sibakuljogja.jogjaprov.go.id/files/No_Image_Available.jpg' " alt="news" class="img-fluid mb-4 w-full " style="max-height: 40rem; object-fit: cover;" />
+                                    <img src="<?= $berita['thumbnail'] ?>" onerror="this.src = 'https://sibakuljogja.jogjaprov.go.id/files/No_Image_Available.jpg' " alt="news" class="w-full mb-4 img-fluid " style="max-height: 40rem; object-fit: cover;" />
                                     <div class="news-post-wrapper-sm ">
-                                        <p class="pt-4 pb-4 mb-4">
+                                        <p class="pt-4 pb-4 mb-4 text-lg leading-loose text-justify">
                                             <?= $berita['kontent'] ?>
                                         </p>
                                     </div>
