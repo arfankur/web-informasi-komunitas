@@ -22,46 +22,12 @@
                         <i class="mdi mdi-close"></i>
                     </button>
                 </li>
-
-                <!-- <li class="nav-item active">
-                    <a class="nav-link active" href="../index.php">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/world.php">World</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/author.php">Magazine</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/news-post.php">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/business.php">Business</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/sports.php">Sports</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/art.php">Art</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/politics.php">Politics</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/real-estate.php">Real estate</a>
-                </li>
-                -->
                 <li class="nav-item">
                     <a class="nav-link" href="/">HOME</a>
                 </li>
                 <?php
                 foreach ($_datakomunitas as $key => $value) {
-                    # code...
-
                 ?>
-                    <!-- <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="mdi mdi-magnify"></i></a>
-                </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="index.php?kategori=<?= $key ?>"><?= strtoupper($key) ?></a>
                     </li>

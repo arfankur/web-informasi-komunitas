@@ -29,9 +29,8 @@ Sapiente magnam nostrum doloremque incidunt minima odit eveniet ut adipisci reic
 Fugiat voluptatum eaque odio aut facilis in, laboriosam error, reiciendis praesentium corporis eveniet commodi ab fuga totam assumenda ad ex tempore. Possimus iusto accusamus, perferendis quo porro architecto nobis eos?";
 $_datakomunitas = [
     'Gathering' => [
-        // 'berita' => [
+        
         [
-            /* judul gamber */
             'name' => 'Silahturahmi KFB',
             /* sumber gamber */ 'thumbnail' => 'http://alienco.net/wp-content/uploads/2015/03/Foto-Prewedding-Foto-Pernikahan-Wedding-Photography-Jasa-Fotografi-Komunitas-fotografi-Bogor-3-640x199.jpg',
             /*isi berita*/ 'kontent' => $lorem,
@@ -54,7 +53,6 @@ $_datakomunitas = [
         // ]
     ],
     'Kompetisi' => [
-        // 'berita' => [
         [
             'name' => 'Iseng Foto Di Gunung',
             'thumbnail' => 'https://images.solopos.com/2013/07/any-sby-jkt-060713-Prasetyo-Utomo-antara2.jpg',
@@ -73,7 +71,6 @@ $_datakomunitas = [
         // ]
     ],
     'Edukasi' => [
-        // 'berita' => [
         [
             'name' => 'Dasar Fotografi',
             'thumbnail' => 'https://fdn.gsmarena.com/imgroot/reviews/19/buyers-guide/thumbs/-728x314/gsmarena_003.jpg',
